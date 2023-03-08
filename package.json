@@ -1,0 +1,33 @@
+{
+  "name": "legoworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UP960777/legoworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UP960777/legoworld/issues"
+  },
+  "homepage": "https://github.com/UP960777/legoworld#readme",
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.21.0",
+    "boxicons": "^2.1.2",
+    "express": "^4.17.2",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-portsoc-ts": "github:portsoc/eslint-config-portsoc-ts",
+    "nodemon": "^2.0.15"
+  }
+}
